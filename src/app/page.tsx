@@ -7,9 +7,9 @@ import PageContainer from "./components/pagecontainer"
 export default function Home() {
   return (
     <PageContainer>
-        <div className='flex flex-col gap-3'>
+        {/* <div className='flex flex-col gap-3'> */}
           <Introduction></Introduction>
-        </div>
+        {/* </div> */}
      </PageContainer>
     
   )

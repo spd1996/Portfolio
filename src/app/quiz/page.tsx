@@ -2,6 +2,7 @@
 // App.tsx
 
 import React, { useState } from 'react';
+import PageContainer from "../components/pagecontainer";
 
 interface QuizProps {
   questions: Array<{
@@ -106,10 +107,12 @@ const App: React.FC = () => {
   ];
 
   return (
-    <div className="App">
+    <PageContainer>
+          <div className="App">
       <h1 className="text-4xl font-bold text-center my-8">React Quiz App</h1>
       <Quiz questions={sampleQuestions} />
     </div>
+    </PageContainer>
   );
 };
 
