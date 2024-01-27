@@ -88,7 +88,8 @@ module.exports = {
         gray: '#91A1AE',
         pink: '#DE4B9B',
         indigo: '#4A35C3',
-        purple: '#8B5CF6'
+        purple: '#8B5CF6',
+        yellow: '#FEF08A'
       },
 
       progress: {
