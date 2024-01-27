@@ -124,8 +124,8 @@ const PageContainer: React.FC<LayoutContainerProps> = ({ children }) => {
                         </g>{" "}
                       </g>
                     </svg>
-                    <a href="#" className="block">
-                      About
+                    <a href="/stories" className="block">
+                      Stories
                     </a>
                   </div>
                 </li>
