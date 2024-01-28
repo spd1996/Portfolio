@@ -107,6 +107,14 @@ const PageContainer: React.FC<LayoutContainerProps> = ({ children }) => {
                     </a>
                   </div>
                 </li>
+                <li className="p-2 hover:bg-gray-600">
+                  <div className="flex flex-row space-x-2">
+                   
+                    <a href="/landing-page" className="block">
+                      Landing-page
+                    </a>
+                  </div>
+                </li>
                 {/* Add more items as needed */}
               </ul>
             </nav>
