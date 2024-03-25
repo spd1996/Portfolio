@@ -53,7 +53,7 @@ const CoursesSection = () => (
 const TestimonialsSection = () => (
   <div id="testimonials" className="p-10">
     <h3 className="text-3xl font-bold">What Our Students Say</h3>
-    <div className="mt-4 italic">"I had a great learning experience..." - Student</div>
+<div className="mt-4 italic">&quot;I had a great learning experience...&quot; - Student</div>
   </div>
 );
 
