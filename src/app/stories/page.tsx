@@ -38,7 +38,8 @@ const PdfUploader: React.FC = () => {
           onChange={handleFileChange}
           className="mb-4 p-2 border rounded shadow"
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {pdfFiles.length > 0 ? ( 
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {pdfFiles.map((pdfFile, index) => (
             <div
               key={index}
@@ -57,7 +58,7 @@ const PdfUploader: React.FC = () => {
               ></div>
             </div>
           ))}
-        </div>
+        </div>  ) : (<div className=" text-white rounded-md p-3"><img src="/empty.svg" alt="My App Logo" width={500} height={400} /></div>)}
       </div>
     </PageContainer>
   );
