@@ -26,7 +26,7 @@ const ImageUpload: React.FC = () => {
                 dynamicHeight
             >
                 {source.map((photo, index) => (
-                    <div key={index} className="p-2  shadow-lg mx-4 my-2 transform hover:scale-105 transition duration-300">
+                    <div key={index} className="p-2  shadow-lg mx-4 my-2 transform hover:scale-105 transition duration-300  bg-gradient-to-r from-accent-blue to-accent-indigo">
                         <img 
                             src={photo} 
                             alt={`upload-${index}`} 
@@ -41,10 +41,10 @@ const ImageUpload: React.FC = () => {
     
     return (
         <PageContainer>
-                    <div className="bg-gradient-to-r from-accent-blue to-accent-indigo">
+        <div className=" bg-gray-300 flex flex-col items-center">
             <input type="file" multiple onChange={handleImageChange} />
             <div className="mt-4">
-                {images.length > 0 && renderCarousel(images)}
+                {images.length > 0 ? renderCarousel(images) : <div className="text-white rounded-md"><img src="/empty.svg" alt="My App Logo" width={550} height={400} /></div>}
             </div>
         </div>
         </PageContainer>
