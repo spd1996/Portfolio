@@ -42,9 +42,9 @@ const ImageUpload: React.FC = () => {
     return (
         <PageContainer>
         <div className=" bg-gray-300 flex flex-col items-center">
-            <input type="file" multiple onChange={handleImageChange} />
+            <input type="file" multiple onChange={handleImageChange} className="mb-4 p-2 border rounded shadow mt-4" />
             <div className="mt-4">
-                {images.length > 0 ? renderCarousel(images) : <div className="text-white rounded-md"><img src="/empty.svg" alt="My App Logo" width={550} height={400} /></div>}
+                {images.length > 0 ? renderCarousel(images) : <div className="text-white rounded-md mb-3"><img src="/empty.svg" alt="My App Logo" width={500} height={400} /></div>}
             </div>
         </div>
         </PageContainer>
