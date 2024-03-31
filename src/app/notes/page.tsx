@@ -46,7 +46,7 @@ const NotesApp: React.FC = () => {
 
   return (
     <PageContainer>
-        <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-md">
+      <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-md">
       <h1 className="text-2xl font-bold mb-4 text-primary">Notes</h1>
 
       <label className="block mb-4">

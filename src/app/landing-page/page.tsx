@@ -1,11 +1,17 @@
 'use client'
 
+import Link from 'next/link';
 import React from 'react';
 
 // Header Component
 const Header = () => (
   <header className="flex justify-between items-center p-4 bg-accent-blue text-white">
-    <h1>EduCenter</h1>
+    <div className='flex flex-row'>
+    <Link href={"/"}>
+              <h2 className="text-2xl font-semibold text-primary">Home</h2>
+    </Link>
+    <img src="/logo.svg" alt="My App Logo" width={50} height={50} />
+    </div>
     <nav>
       <a href="#about" className="mx-2">About</a>
       <a href="#courses" className="mx-2">Courses</a>

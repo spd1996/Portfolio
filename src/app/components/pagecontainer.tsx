@@ -127,7 +127,7 @@ const PageContainer: React.FC<LayoutContainerProps> = ({ children }) => {
                   <div className="flex flex-row space-x-2">
                    
                     <a href="/dummy" className="block">
-                      dummy
+                      Coming soon...
                     </a>
                   </div>
                 </li>
@@ -138,7 +138,7 @@ const PageContainer: React.FC<LayoutContainerProps> = ({ children }) => {
         )}
 
         {/* Content */}
-        <div className="flex-1 overflow-x-hidden overflow-y-auto bg-primary">
+        <div className="flex-1 overflow-x-hidden overflow-y-auto bg-gray-300">
           {/* Page Content */}
           <main className="">{children}</main>
         </div>

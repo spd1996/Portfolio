@@ -126,6 +126,7 @@ const Banner: React.FC = () => {
   return (
     <div className="flex flex-col items-center absolute top-10 left-1/2 transform -translate-x-1/2 text-white bg-accent-blue rounded-md p-3 hover:bg-accent-green">
       <h1>Welcome to the Universe!</h1>
+      <p>I am SURAJ PRAKASH DWIVEDI</p>
       <p>Click and drag to rotate the camera</p>
       <p>Scroll to zoom in and out</p>
     </div>
