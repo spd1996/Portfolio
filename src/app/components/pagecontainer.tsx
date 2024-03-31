@@ -119,7 +119,7 @@ const PageContainer: React.FC<LayoutContainerProps> = ({ children }) => {
                   <div className="flex flex-row space-x-2">
                    
                     <a href="/player" className="block">
-                      Player
+                      Important Dates
                     </a>
                   </div>
                 </li>
