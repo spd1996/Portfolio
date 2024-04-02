@@ -125,10 +125,10 @@ const UniverseScene: React.FC = () => {
 const Banner: React.FC = () => {
   return (
     <div className="flex flex-col items-center absolute top-10 left-1/2 transform -translate-x-1/2 text-white bg-accent-blue rounded-md p-3 hover:bg-accent-green">
-      <h1>Welcome to the Universe!</h1>
-      <p>I am SURAJ PRAKASH DWIVEDI</p>
-      <p>Click and drag to rotate the camera</p>
-      <p>Scroll to zoom in and out</p>
+      <h1>मेरे संसार में आपका स्वागत है!</h1>
+      <p>मैं सूरज प्रकाश द्विवेदी हूँ</p>
+      <p>कैमरा को घुमाने के लिए क्लिक करें और खींचें</p>
+      <p>ज़ूम इन और आउट करने के लिए स्क्रॉल करें</p>
     </div>
   );
 };
