@@ -6,11 +6,11 @@ import React from 'react';
 // Header Component
 const Header = () => (
   <header className="flex justify-between items-center p-4 bg-accent-blue text-white">
-    <div className='flex flex-row'>
+    <div className='flex flex-row items-center'>
+    <img src="/logo.svg" alt="My App Logo" width={50} height={50} />
     <Link href={"/"}>
               <h2 className="text-2xl font-semibold text-primary">Home</h2>
     </Link>
-    <img src="/logo.svg" alt="My App Logo" width={50} height={50} />
     </div>
     <nav>
       <a href="#about" className="mx-2">About</a>
