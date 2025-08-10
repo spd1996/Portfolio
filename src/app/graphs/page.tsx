@@ -79,7 +79,7 @@ import PageContainer from "../components/pagecontainer";
             <Doughnut data={chartData} />
           </div>
           <div className="w-[600px]">
-            <Bar data={chartData} options={barOptions} />
+            <Bar data={barData} options={barOptions} />
           </div>
         </div>
       </div>
